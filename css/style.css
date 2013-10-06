@@ -1,3 +1,6 @@
+
+
+
 body{
 	font-size:15px;
 	color:#000000;
@@ -6,28 +9,14 @@ body{
 	margin:0 20px 0 20px;
 }
 
+
+
 #qiqi {
 	text-align:center;
-}
-
-#mmenu {
-	text-align:center;
-	font-size: 20px;
- 	border-top: medium double black;
- 	border-bottom: medium double black;
 
 }
-#mmenu a {
-	text-decoration:none;
-}
-#mmenu ul {
-	margin:5px auto 5px auto;
-}
-#mmenu li {
-	display:inline;
-	margin: 0 30px 0 30px;
 
-}
+
 
 #footer {
 	clear:both;
@@ -51,4 +40,52 @@ body{
 
 div.basetop {  
 	
+}
+
+
+.center {
+	text-align:center;
+}
+
+
+/* Navigation */
+.navigation a {
+	color: #888;
+	text-decoration: none;
+}
+.navigation a:hover {color: #002;}
+.navigation li.current-tab a {color: #222;}
+
+
+#main-nav li:first-child, #sub-nav li:first-child {margin-left: 0;}
+
+/* Main navigation */
+#main-nav {
+	padding-top: 0.5em;
+	padding-bottom:0.5em;
+	border-top: double black;
+	border-bottom: double black;
+}
+
+#main-nav li {margin: 0 1.5em;}
+#main-nav a {
+	font-size: 1.8em;
+	line-height: 1.5em;
+	padding-bottom: 2px;
+}
+#main-nav li.current-tab a {color: #333;}
+#main-nav a:hover {color: #002;}
+#main-nav li.current-tab a {border-bottom: 2px solid #94CC5F;}
+
+
+ul.tabbed {
+	display: inline;
+	margin: 0;
+}
+
+ul.tabbed li {
+	list-style: none;
+	margin-top: 0;
+	margin-left:10px;
+	display: inline;
 }
