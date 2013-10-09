@@ -241,12 +241,30 @@ INSTALLED_APPS = (
     "mezzanine.pages",
     "mezzanine.galleries",
     "mezzanine.twitter",
+    "mezzanine_html5boilerplate",
     #"mezzanine.accounts",
     #"mezzanine.mobile",
+    "mezzanine_events",
+    #"meme",
+    "mdown",
+    #"mezzanine_pagedown",
 )
 
+# Settings for mdown and pagedown
+RICHTEXT_WIDGET_CLASS="mdown.forms.WmdWidget"
+
+# RICHTEXT_WIDGET_CLASS='mezzanine_pagedown.widgets.PageDownWidget'
+# RICHTEXT_WIDGET_CLASS='mezzanine_pagedown.widgets.PlainWidget'
+
+RICHTEXT_FILTER="mdown.filters.codehilite"
+
+# RICHTEXT_FILTER='mezzanine_pagedown.filters.codehilite'
+
+# RICHTEXT_FILTER_LEVEL = 3
+
+
 # I add the following line to run a test
-# THEME="html5boiler"
+THEME="mezzanine_html5boilerplate"
 
 # List of processors used by RequestContext to populate the context.
 # Each one should be a callable that takes the request object as its
