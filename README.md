@@ -17,7 +17,7 @@ Just edit the HTML files in the gh-pages branch, and pull your request to the re
 Recent focuses
 ==
 1. Build a functional platform that everyone (most non-website developers) can easily contribute ideas and scientific references on our website. Currently, we are using Docear or Freeplane as a tool to export mindmaps as a HTML page. This is neither reversible nor sufficient for our need.
-2. Looking for nominations of open-source projects that we should support and use for our present researches in this field. You can start an issue discussion so that every contributor and watcher of this project can receive an email and take actions (see, another technical problem looking for better solutions). 
+2. Looking for nominations of open-source projects that we should support and use for our present researches in this field. You can start an issue discussion so that every contributor and watcher of this project can receive an email and take actions (see, another technical problem looking for better solutions). All nominated existing open-source projects will be linked in a summary page. All wanted open-source projects will be reflected in the project Roadmap page.
 3. Looking for contributors who would like to better this website and initialize associate meaningful open-source projects.
 4. Looking for project sponsors so that we can afford a web-server to launch a better database and website service. 
 
