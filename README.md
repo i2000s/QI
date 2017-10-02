@@ -1,3 +1,5 @@
+***Note***: This project has mainly been moved to the [ICIQ community project](https://github.com/ICIQ/iciq.github.io). Therefore, this repository is no longer under active development.
+
 QI-Project
 ==
 This is an open-source project aiming at facilitating collaborations and creativities in the field of quantum information, quantum computing and quantum artificial intelligence. It is expected to have a website linking with discussions, documentations and maybe some implements of algorithms. Here is the source code for the website and the repository for related projects.
